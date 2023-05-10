@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Солнце - это что?</title>
+    <script src="script.js"></script>
+    <script src="script_star.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="Section.html"><img src="img/Иконка.png" class="home_icon"/></a>
+<div class="title_container">
+    <h1>Солнце - это что?</h1>
+</div>
+
+<div class="center_block">
+    <img src="img/Солнце.png" style="width: 450px"/>
+    <div>
+        <input type="text" id="img_name" onclick="checkName()">
+    </div>
+</div>
+
+<div class="arrow_container_left" onclick="redirect('')">
+    <img class="reverse_arrow" src="img/Стрелка.png"/>
+    <div class="arrow_left_text">Назад</div>
+</div>
+<div id="arrow_next" class="arrow_container_right not_active" onclick="checkNameAndRedirect('near.html')">
+    <img class="arrow" src="img/Стрелка.png"/>
+    <div class="arrow_right_text">Далее</div>
+</div>
+</body>
+</html>

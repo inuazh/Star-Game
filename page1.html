@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Расположите планеты</title>
+    <script src="script.js"></script>
+    <script src="script_page1.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="Section.html"><img src="img/Иконка.png" class="home_icon"/></a>
+<div class="title_container">
+    <h1>Расположите планеты, как в солнечной системе</h1>
+</div>
+<div class="planets">
+    <img class="planet_img" id="4" src="img/Марс.png" style="width: 156px"/>
+    <img class="planet_img" id="3" src="img/Земля.png" style="width: 178px"/>
+    <img class="planet_img" id="5" src="img/Юпитер.png" style="width: 300px"/>
+    <img class="planet_img" id="6" src="img/Сатурн.png" style="width: 400px"/>
+    <img class="planet_img" id="1" src="img/Меркурий.png" style="width: 144px"/>
+    <img class="planet_img" id="7" src="img/Уран.png" style="width: 250px"/>
+    <img class="planet_img" id="2" src="img/Венера.png" style="width: 178px"/>
+    <img class="planet_img" id="8" src="img/Нептун.png" style="width: 227px"/>
+</div>
+
+<div class="arrow_container_left" onclick="redirect('page1.html')">
+    <img class="reverse_arrow" src="img/Стрелка.png"/>
+    <div class="arrow_left_text">Назад</div>
+</div>
+<div id="arrow_next" class="arrow_container_right not_active" onclick="checkPlanetLocationAndRedirect('page2.html')">
+    <img class="arrow" src="img/Стрелка.png"/>
+    <div class="arrow_right_text">Далее</div>
+</div>
+</body>
+</html>

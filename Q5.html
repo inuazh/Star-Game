@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Большинство созвездий зодиаков названо в честь</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="Section.html"><img src="img/Иконка.png" class="home_icon"/></a>
+<div class="title_container">
+    <h1>Большинство созвездий зодиаков названо в честь</h1>
+    
+    <div class="const">
+        <div class="const__item">
+            <img class="const__image  const__image--first" src="img/Лебедь.png" style="width: 370px;">
+            <img class="const__image  const__image--second" src="img/Пегас.png" style="width: 370px;">
+        </div>
+        <div class="const__item">
+            <img class="const__image  const__image--first" src="img/Телец.png" style="width: 370px;">
+            <img class="const__image  const__image--second" src="img/Кассиопея.png" style="width: 370px;">
+        </div>
+    </div>
+    <div class="select__center">
+        <select class="select" name="" id="">
+            <option id="1" onchange="checkThing()" name= "thing" value="">предметов</option>
+            <option id="2" onchange="checkThing()" name= "animal" value="">животных</option>
+            <option id="3" onchange="checkThing()" name= "people" value="">людей</option>
+        </select>
+    </div>
+</div>
+
+    <div class="arrow_container_left" onclick="redirect('Q4.html')">
+        <img class="reverse_arrow" src="img/Стрелка.png"/>
+        <div class="arrow_left_text">Назад</div>
+    </div>
+    <div id="arrow_next" class="arrow_container_right not_active" onclick="checkThingLocationAndRedirect('level1.html')">
+        <img class="arrow" src="img/Стрелка.png"/>
+        <div class="arrow_right_text">Далее</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,255 @@
+body {
+    background: url("img/7.png") center no-repeat fixed;
+    font-family: Arial;
+    color: white;
+    background-size: cover;
+}
+
+/*Q7*/
+.intro__title--question7 {
+    margin-bottom: 120px;
+  }
+
+  .title_container {
+    text-align: center;
+}
+
+.title_container h1 {
+    font-size: 48px;
+}
+
+.home_icon {
+    width: 86px;
+    float: left;
+    margin-top: -20px;
+}
+
+.arrow {
+    width: 160px;
+}
+
+.reverse_arrow {
+    width: 160px;
+    transform: scaleX(-1);
+}
+
+.arrow_container_left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.arrow_container_right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.arrow_left_text {
+    position: absolute;
+    color: white;
+    bottom: 32px;
+    left: 48px;
+    color: #DFD154;
+    font-size: 28px;
+    transform: rotate(10deg);
+}
+
+.arrow_right_text {
+    position: absolute;
+    color: white;
+    bottom: 32px;
+    right: 44px;
+    color: #DFD154;
+    font-size: 28px;
+    transform: rotate(-10deg);
+}
+
+.not_active {
+    filter: grayscale(1);
+}
+
+.active {
+    filter: grayscale(0);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*Q7*/
+  .shine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*Q7*/
+  .shine__var {
+    width: 500px;
+    height: 53px;
+    margin-bottom: 120px;
+    font-size: 0;
+    background-color: #fff;
+    border-radius: 25px;
+  }
+  
+  /*Q7*/
+  .shine__list-item {
+    width: 500px;
+    height: 53px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+    cursor: move;
+    line-height: 54px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+  }
+
+  /*Q7*/
+  .intro__text {
+    font-weight: 500;
+    font-size: 34px;
+    color: #fff;
+    line-height: 42px;
+    
+  }
+  
+  .intro__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /*Q8*/
+  .intro__inner--question8 {
+    margin-bottom: 150px;
+  }
+
+  /*Q8*/
+  .intro__inner--pt {
+    padding-top: 120px;
+  }
+
+  /*Q8*/
+  .select {
+    width: 438px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 39px;
+    color: #000;
+    cursor: pointer;
+    line-height: 46px;
+    text-align-last: center;
+  }
+
+  /*Q8*/
+  .select--question8 {
+    width: 448px;
+    height: 63px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 52px;
+    border-radius: 25px;
+    justify-content: space-around;
+  }
+
+  /*Q8*/
+  .select__center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro{
+    position: relative;
+    background-size: cover;
+  }
+
+  .bodies {
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+  }
+  
+  .bodies--question2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+  }
+
+  .bodies--margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  
+  .bodies__inner {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .bodies__item {
+    width: 310px;
+    height: 33px;
+    margin-bottom: 95px;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    line-height: 32px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+  }
+
+  .bodies__item :last-child {
+    margin-bottom: 0;
+  }
+
+  .bodies__item--question1 {
+    cursor: move;
+  }
+
+  .bodies__item--question2 {
+    font-size: 0;
+    margin-bottom: 55px;
+  }
+
+  .bodies__item--margin {
+    margin-right: 95px;
+    margin-left: 100px;
+    margin-bottom: 28px;
+    cursor: move;
+  }
+
+  .bodies__item--margin1 {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+
+  .bodies__item--padding {
+    padding-left: 210px;
+    padding-right: 210px;
+  }
+
+  .intro__inner--question2 {
+    margin-bottom: 55px;
+    padding: 0px 200px;
+    align-items: flex-start;
+  }
+
+  ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
