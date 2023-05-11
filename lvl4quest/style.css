@@ -1,7 +1,7 @@
 body {
   width: 90svw;
   height: 90svh;
-  background: url("img/фон2.png") no-repeat;
+  background: url("../img/фон2.png") no-repeat;
   background-size: 190%;
   background-position: center;
 
