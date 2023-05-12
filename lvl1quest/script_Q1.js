@@ -12,6 +12,11 @@ function checkName() {
     }
 }
 
+
+function redirect(page) {
+    // Перенаправление пользователя на указанную страницу
+    window.location.href = page;
+}
 // функция проверяющая правильно ли указано название премета на картинке и перенаправляющая далее если да
 function checkNameAndRedirect(page) {
     if (checkName()){

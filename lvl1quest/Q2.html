@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Какими цифрами на рисунке обозначены
         следующие созвездия?</title>
-    <script src="script.js"></script>
+    <script src="script.js" async></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleQ2.css">
 </head>
+
 <body>
-    <a href="#"><img src="../img/Иконка.png" class="home_icon"/></a>
-<div class="title_container">
-    <h1>Какими цифрами на рисунке обозначены
-        следующие созвездия?</h1>
-</div>
+    <a href="#"><img src="../img/Иконка.png" class="home_icon" /></a>
+    <div class="title_container">
+        <h1>Какими цифрами на рисунке обозначены
+            следующие созвездия?</h1>
+    </div>
 
-        <div class="numbers">
-            <div class="numbers__item">
-                <p class="numbers__text">Лебедь</p>
-                <input class="numbers__input" type="text">
-            </div>
-            <div class="numbers__item">
-                <p class="numbers__text">Пегас</p>
-                <input class="numbers__input" type="text">
-            </div>
-            <div class="numbers__item">
-                <p class="numbers__text">Телец</p>
-                <input class="numbers__input" type="text">
-            </div>
+    <div class="numbers">
+        <div class="numbers__item">
+            <p class="numbers__text">Лебедь</p>
+            <input class="numbers__input" type="text">
         </div>
-        <div class="galaxies">
-            <div class="galaxies__item">
-                <img class="galaxies__image" src="../img/Большой Пес.png" style="width: 290px;"/>
-                <p class="galaxies__text  galaxies__text--first">1</p>
-            </div>
-            <div class="galaxies__item">
-                <img class="galaxies__image" src="../img/Большая Медведица.png" style="width: 290px;"/>
-                <p class="galaxies__text  galaxies__text--second">2</p>
-            </div>
-            <div class="galaxies__item">
-                <img class="galaxies__image" src="../img/Лебедь.png" style="width: 290px;"/>
-                <p class="galaxies__text  galaxies__text--third">3</p>
-            </div>
+        <div class="numbers__item">
+            <p class="numbers__text">Пегас</p>
+            <input class="numbers__input" type="text">
         </div>
-        <div class="galaxies  galaxies--second">
-            <div class="galaxies__item  galaxies__item--fourth">
-                <img class="galaxies__image" src="../img/Пегас.png" style="width: 290px;"/>
-                <p class="galaxies__text  galaxies__text--fourth">4</p>
-            </div>
-            <div class="galaxies__item  galaxies__item--fifth">
-                <img class="galaxies__image" src="../img/Телец.png" style="width: 290px;"/>
-                <p class="galaxies__text  galaxies__text--fifth">5</p>
-            </div>
+        <div class="numbers__item">
+            <p class="numbers__text">Телец</p>
+            <input class="numbers__input" type="text">
         </div>
+    </div>
+    <div class="galaxies">
+        <div class="galaxies__item">
+            <img class="galaxies__image" src="../img/Большой Пес.png" style="width: 290px;" />
+            <p class="galaxies__text  galaxies__text--first">1</p>
+        </div>
+        <div class="galaxies__item">
+            <img class="galaxies__image" src="../img/Большая Медведица.png" style="width: 290px;" />
+            <p class="galaxies__text  galaxies__text--second">2</p>
+        </div>
+        <div class="galaxies__item">
+            <img class="galaxies__image" src="../img/Лебедь.png" style="width: 290px;" />
+            <p class="galaxies__text  galaxies__text--third">3</p>
+        </div>
+    </div>
+    <div class="galaxies  galaxies--second">
+        <div class="galaxies__item  galaxies__item--fourth">
+            <img class="galaxies__image" src="../img/Пегас.png" style="width: 290px;" />
+            <p class="galaxies__text  galaxies__text--fourth">4</p>
+        </div>
+        <div class="galaxies__item  galaxies__item--fifth">
+            <img class="galaxies__image" src="../img/Телец.png" style="width: 290px;" />
+            <p class="galaxies__text  galaxies__text--fifth">5</p>
+        </div>
+    </div>
 
-<div class="arrow_container_left" onclick="redirect('#')">
-    <img class="reverse_arrow" src="../img/Стрелка.png"/>
-    <div class="arrow_left_text">Назад</div>
-</div>
-<div id="arrow_next" class="arrow_container_right not_active" onclick="checkPlanetLocationAndRedirect('#')">
-    <img class="arrow" src="../img/Стрелка.png"/>
-    <div class="arrow_right_text">Далее</div>
-</div>
+    <div class="arrow_container_left" onclick="redirect('#')">
+        <img class="reverse_arrow" src="../img/Стрелка.png" />
+        <div class="arrow_left_text">Назад</div>
+    </div>
+    <div id="arrow_next" class="arrow_container_right not_active" onclick="checkPlanetLocationAndRedirect('#')">
+        <img class="arrow" src="../img/Стрелка.png" />
+        <div class="arrow_right_text">Далее</div>
+    </div>
 
 </body>
+
 </html>

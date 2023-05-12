@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Верно-Неверно</title>
-    <script src="script.js"></script>
+    <script src="DragNdrop__Q3.js" async></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Q.css">
 </head>
-<body>
-    <a href="Section.html"><img src="../img/Иконка.png" class="home_icon"/></a>
-<div class="title_container">
-    <h1>Верно-Неверно</h1>
-</div>
 
-        <div class="intro__inner">
-            <div class="correct">
-                <p class="correct__text">Ночью Солнце гаснет -</p>
-                <div class="correct__var"></div>
-                <p class="correct__text">Днем звезды не видны из-за
-                <br>
-                яркого солнечного света -</p>
+<body>
+    <a href="Section.html"><img src="../img/Иконка.png" class="home_icon" /></a>
+    <div class="title_container">
+        <h1>Верно-Неверно</h1>
+    </div>
+
+    <div class="intro__inner">
+        <div class="correct">
+
+            <div class="flex_container">
+                <p class="correct__text nightSolar">Ночью Солнце гаснет -</p>
+                <div class="correct__var DayStar"></div>
+            </div>
+
+            <div class="flex_container">
+                <p class="correct__text ">Днем звезды не видны из-за
+                 
+                    яркого солнечного света -
+                </p>
                 <div class="correct__var  correct__var--second"></div>
             </div>
-            <img src="../img/Солнце.png"/>
+
         </div>
-        <ul class="bodies  bodies--question6">
-            <li class="bodies__item2  bodies__item--margin2" data-unit>Верно</li>
-            <li class="bodies__item2  bodies__item--margin2" data-unit>Неверно</li>
-        </ul>
+        <img src="../img/Солнце.png" />
+    </div>
+    <div class="bodies  bodies--question6">
+        <div class="bodies__item2  bodies__item--margin2" data-unit draggable="true">Верно</div>
+        <div class="bodies__item2  bodies__item--margin2 notRight" data-unit draggable="true">Неверно</div>
+    </div>
 
-<div class="arrow_container_left" onclick="redirect('near.html')">
-    <img class="reverse_arrow" src="../img/Стрелка.png"/>
-    <div class="arrow_left_text">Назад</div>
-</div>
-<div id="arrow_next" class="arrow_container_right not_active" onclick="checkPlanetLocationAndRedirect('Q7.html')">
-    <img class="arrow" src="../img/Стрелка.png"/>
-    <div class="arrow_right_text">Далее</div>
-</div>
+    <div class="arrow_container_left" onclick="redirect('near.html')">
+        <img class="reverse_arrow" src="../img/Стрелка.png" />
+        <div class="arrow_left_text">Назад</div>
+    </div>
+    <button id="arrow_next" class="arrow_container_right" onclick="check_answer()">
+        <img class="arrow" src="../img/Стрелка.png" />
+        <div class="arrow_right_text">Далее</div>
+    </button>
 
-<script src="js.js"></script>
+    <!-- <script src="js.js"></script> -->
 
 </body>
+
 </html>

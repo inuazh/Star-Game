@@ -127,7 +127,8 @@ p {
 }
 
 input[type=text] {
-  margin-top: 120px;
+  margin-top: -100px;
+  margin-left: 150px;
   padding: 10px;
   font-size: 32px;
   border-radius: 20px;
@@ -671,14 +672,11 @@ input[type=text] {
 }
 
 /*Q11*/
-.numbers__item {
-  display: flex;
-  padding-left: 105px;
-}
+
 
 /*Q11*/
 .numbers__text {
-  margin-right: 70px;
+  margin-right: 0px;
   font-size: 34px;
   color: #fff;
   font-weight: 600;
@@ -706,7 +704,7 @@ input[type="text"i] {
 /*Q11*/
 .galaxies {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   margin-top: -80px;
   padding: 0 260px;
