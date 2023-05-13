@@ -15,6 +15,6 @@ function checkName() {
 // функция проверяющая правильно ли указано название премета на картинке и перенаправляющая далее если да
 function checkNameAndRedirect(page) {
     if (checkName()){
-        redirect(Q4.html);
+        window.location.href = page;
     }
 }
