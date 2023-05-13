@@ -6,7 +6,7 @@
         
         if (selectedOption.getAttribute('name') === 'animal') {
             arrowDiv.parentNode.onclick = function() {
-                window.location.href = '../Section.html';
+                window.location.href = '../lvl2quest/Q1.html';
             }
             arrowDiv.parentNode.classList.remove('not_active');
         } else {
