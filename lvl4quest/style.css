@@ -904,7 +904,7 @@ li {
 }
 
 /*for Q12 for text*/
-.zv {
+.zvezda {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -912,7 +912,7 @@ li {
 }
 
 /*for Q12 for empty text*/
-.zv__item {
+.zvezda__item {
   margin-bottom: 95px;
   padding: 0px 40px;
   font-weight: 600;
@@ -925,7 +925,7 @@ li {
 }
 
 /*Q12 empty text right*/
-.zv__var {
+.zvezda__var {
   width: 210px;
   height: 43px;
   margin-bottom: 120px;
@@ -936,7 +936,7 @@ li {
 }
 
 /*Q12 empty text left*/
-.zv1__var--mr {
+.zvezda1__var--mr {
   width: 210px;
   height: 43px;
   margin-top: -160px;

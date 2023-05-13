@@ -14,7 +14,7 @@ function checkName() {
 
 // функция проверяющая правильно ли указано название премета на картинке и перенаправляющая далее если да
 function checkNameAndRedirect(page) {
-    if (checkName()){
-        redirect(page);
+    if (document.getElementById("img_name").value === "Телец") {
+      window.location.href = page;
     }
-}
+  }

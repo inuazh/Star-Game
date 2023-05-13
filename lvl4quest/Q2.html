@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Соотнесите звезды и созвездия, в которых они расположены</title>
-    <script src="script.js"></script>
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <a href="Section.html"><img src="../img/Иконка.png" class="home_icon"/></a>
-<div class="title_container">
-    <h1>Соотнесите звезды и созвездия, в которых они расположены</h1>
-</div>
 
-<div class="center_block">
-    <div>
-        <img id="animal" class="anim" onclick="setBorderAndCheckPlanet('animal')" src="../img/Большой Пес.png" style="width: 200px; margin-left: -50px;"/>
-        <img id="animal" class="anim" onclick="setBorderAndCheckPlanet('animal')" src="../img/Телец.png" style="width: 260px; margin-left: 150px;"/>
+<body>
+    <a href="Section.html"><img src="../img/Иконка.png" class="home_icon" /></a>
+    <div class="title_container">
+        <h1>Соотнесите звезды и созвездия, в которых они расположены</h1>
     </div>
 
-    <div>
-        <div class="Dog">
-            <div style="float: left; margin-left: 385px; margin-top: -405;">
-            <label>Большой Пес</label>
-            </div>
-        
+    <div class="center_block">
+        <div>
+            <img id="animal" class="anim" onclick="setBorderAndCheckPlanet('animal')" src="../img/Большой Пес.png"
+                style="width: 200px; margin-left: -50px;" />
+            <img id="animal" class="anim" onclick="setBorderAndCheckPlanet('animal')" src="../img/Телец.png"
+                style="width: 260px; margin-left: 150px;" />
         </div>
+
+        <div>
+            <div class="Dog">
+                <div style="float: left; margin-left: 385px; margin-top: -405;">
+                    <label>Большой Пес</label>
+                </div>
+
+            </div>
         </div>
         <div>
-        <div class="Bull">
-            <div style="float: left; margin-left: 850px; margin-top: -35px;">
-            <label>Телец</label>
+            <div class="Bull">
+                <div style="float: left; margin-left: 850px; margin-top: -35px;">
+                    <label>Телец</label>
                 </div>
 
-                <ul class="zv">
-                    <li class="zv__item zv__var"></li>
-                    <li class="zv__item zv1__var--mr"></li>
-                
+                <div class="zvezda">
+                    <div class="zvezda__item zvezda__var"></div>
+                    <div class="zvezda__item zvezda1__var--mr"></div>
 
-                <div class="bodies__inner">
-                    <ul class="bodies  bodies--question2">
-                        <li class="bodies__item  bodies__item--margin" data-unit>Вега</li>
-                        <li class="bodies__item  bodies__item--margin" data-unit>Сириус</li>
-                        <li class="bodies__item  bodies__item--margin" data-unit>Алтаир</li>
-                    </ul>
-                    <ul class="bodies  bodies--question2--1">
-                        <li class="bodies__item  bodies__item--margin" data-unit>Альдебран</li>
-                        <li class="bodies__item  bodies__item--margin" data-unit>Процион</li>
-                    </ul>
+
+                    <div class="bodies__inner">
+                        <div class="bodies  bodies--question2">
+                            <div class="bodies__item  bodies__item--margin" draggable="true" data-unit>Вега</div>
+                            <div class="sirius bodies__item  bodies__item--margin" draggable="true" data-unit>Сириус</div>
+                            <div class="bodies__item  bodies__item--margin" draggable="true" data-unit>Алтаир</div>
+                        </div>
+                        <div class="bodies  bodies--question2--1">
+                            <div class="Aldebaran bodies__item  bodies__item--margin" draggable="true" data-unit>Альдебран</div>
+                            <div class="bodies__item  bodies__item--margin" draggable="true" data-unit>Процион</div>
+                        </div>
+                    </div>
                 </div>
-            </ul>
 
 
-<div class="arrow_container_left" onclick="redirect('Q9.html')">
-    <img class="reverse_arrow" src="../img/Стрелка.png"/>
-    <div class="arrow_left_text">Назад</div>
-</div>
-<div id="arrow_next" class="arrow_container_right not_active" onclick="checkPlanetLocationAndRedirect('taurus.html')">
-    <img class="arrow" src="../img/Стрелка.png"/>
-    <div class="arrow_right_text">Далее</div>
-</div>
-
-<script src="js.js"></script>
+                <div class="arrow_container_left" onclick="redirect('Q9.html')">
+                    <img class="reverse_arrow" src="../img/Стрелка.png" />
+                    <div class="arrow_left_text">Назад</div>
+                </div>
+                <div id="arrow_next" class="arrow_container_right not_active"
+                    onclick="checkPlanetLocationAndRedirect('taurus.html')">
+                    <img class="arrow" src="../img/Стрелка.png" />
+                    <div class="arrow_right_text">Далее</div>
+                </div>
+                <script src="scriptQ2.js"></script>
+                <!-- <script src="js.js"></script> -->
 
 </body>
+
 </html>

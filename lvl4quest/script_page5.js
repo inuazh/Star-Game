@@ -26,9 +26,12 @@ function checkPlanet() {
     }
 }
 
-// функция проверяющая правильно ли выбрана планета и перенаправляющая далее если да
-function checkPlanetLocationAndRedirect(page) {
-    if (checkPlanet()){
-        redirect(page);
+function checkPlanetLocationAndRedirect(url) {
+    const earth = document.querySelector('.earth1');
+    const moon = document.querySelector('.moon');
+    if (earth.getBoundingClientRect().top < moon.getBoundingClientRect().top) {
+      window.location.href = url;
+      alert('Поздравляем, вы прошли игру!!');
     }
-}
+  }
+  // костыльная проверка задачки
